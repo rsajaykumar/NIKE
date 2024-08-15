@@ -1,0 +1,321 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#f4f9ff;
+}
+
+.logo{
+    color:#082520;
+    position: absolute;
+    top:0;
+    left:0;
+    margin: 40px;
+}
+section{
+    position: relative;
+    display: flex;
+    left: 20rem;
+    top: 2.5rem;
+    justify-content: space-around;
+    border-bottom: 2px solid rgba(0,0,0,.2);
+    width: 50%;
+    padding: 5px;
+    border-radius: 13px;
+    flex-wrap: nowrap;
+}
+.navlist a{
+    color:#082520;
+    text-decoration:none;
+    font-family: 'Franklin Gothic Medium', 
+    'Arial Narrow', 
+    Arial, sans-serif;
+    transition: all ease 0.40s;
+    border-bottom: 2px solid #f1fafd;
+}
+
+.social-media{
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    margin-left: 100rem;
+    display: flex;
+    gap: 25px;  
+
+}
+
+.social-media i{
+    color: #082520;
+
+}
+
+.navlist a:hover{
+    border-bottom: 2px solid #082520;
+}
+
+.circle{
+    display: flex;
+    height: 32rem;
+    width:32rem;
+    position: absolute;
+    border:2px solid rgba(0,0,0,.2);
+    border-radius: 50%;
+    left: 50%;
+    top: 14rem;
+    background-color:#f74a55;
+    box-shadow: 0px 1px 2px 4px;
+    flex-wrap: wrap;
+}
+
+.nike-kicks-red{
+    position: relative;
+    width: 30rem;
+    height: 30rem;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.header-new{
+    position: absolute;
+    top: 30rem;
+    left: 15rem;
+}
+
+.header-new h3{
+    font-size: 3rem;
+}
+
+.header-new p{
+    font-size: 5rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800;
+}
+
+.nike-kicks-red{
+    transform: rotate(25deg)
+}
+
+.buy-now{
+    margin-top: 30px;
+    font-size: 23px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.red{
+    color:#f74a55
+}
+
+.box {
+    position: relative;
+    width: 45rem;
+    height: 35rem;
+    border: 2px solid rgba(0,0,0,.1);
+    left: 53rem;
+    top: 9.5rem;
+    box-shadow: 0px 0px 8px 2px;
+    border-radius: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.buy{
+    font-size: 2rem;
+    font-family:'Courier New', Courier, monospace;
+    margin-top: 40px;  
+    cursor:pointer; 
+}
+
+.right{
+    width: 26px;
+    position:relative;
+    top: 3px;
+}
+
+.box1, .box2, .box3{
+    width: 400px;
+    height: 400px;
+    border: 2px solid rgba(0,0,0,.1);
+    display: inline-block;
+    position: relative;
+    top: 20rem;
+    left: 18rem;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 4px 1px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+.nike3, .nike4{
+    width:400px;
+    position: absolute;
+    padding-top: 20px;
+}
+
+footer{
+    position: absolute;
+    top: 22rem;
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: auto;
+}
+
+.nike2{
+    width: 400px;
+    position: absolute;
+    padding: 40px;
+    cursor:pointer;
+}
+
+.circle2{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #082520;
+    border-radius: 50%;
+    top: 7rem;
+    left: 45rem;
+
+}
+
+.rotate-down{
+    width: 35px;
+    transform: rotate(90deg);
+    margin-left: 6px;
+    margin-top: 2.5px;
+    animation: down;
+    cursor:pointer;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.classic-header{
+    position: relative;
+    margin-top: 350px;
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    left: 40px;
+    width: auto;
+}
+
+.spotlight1, .spotlight2, .spotlight3{
+    width:400px;
+    height:400px;
+    border:2px solid rgba(0,0,0,.1);
+    display:inline-block;
+    position: relative;
+    left: 18rem;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 4px 1px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+.airforce1{
+    width:400px;
+    position: absolute;
+    padding-top: 27px;
+    right: 12px;
+}
+
+.cortez{
+    width:400px;
+    position: absolute;
+    padding: 10px;
+    bottom: 15px;
+    right: 5px;
+}
+
+.airmax{
+    width:400px;
+    position: absolute;
+    padding-top: 27px;
+    right: 12px;
+}
+
+.dm{
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    left: 40px;
+    width: auto;
+    margin: 20px;
+}
+
+.newbalance{
+    width: 400px;
+    cursor: pointer;
+}
+
+.dont-miss{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.raincloud{
+    width: 450px;
+    cursor: pointer;
+}
+
+.retro1{
+    width: 450px;
+    cursor: pointer;
+}
+
+.blazer{
+    width: 320px;
+    cursor: pointer;
+}
+
+.poster{
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    left: 40px;
+    width: auto;
+    margin: 20px;
+}
+
+.poster-section{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.converse{
+    width:400px;
+    cursor: pointer;
+}
+
+.vol13{
+    width:420px;
+    cursor: pointer;
+}
+
+.chuck{
+    width:310px;
+    cursor: pointer;
+}
+
+.jordan{
+    width:450px;
+    cursor: pointer;
+}
+
+.first-box{
+    display: flex;
+    flex-wrap: wrap;
+}
